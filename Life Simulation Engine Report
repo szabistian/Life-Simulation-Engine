@@ -1,0 +1,111 @@
+# Life Simulation Engine
+
+> **Every choice matters. Shape your character's future one decision at a time.**
+
+## Overview
+
+Life Simulation Engine is a C++ console-based simulation game developed using Object-Oriented Programming (OOP) principles. The project allows users to control a virtual character and make daily life decisions that influence long-term outcomes.
+
+Players navigate through multiple simulated days by choosing activities such as studying, working, exercising, and resting. Each decision affects important life attributes including health, energy, money, skills, and happiness. The simulation demonstrates how consistent daily habits and choices can shape a person's future.
+
+## Features
+
+* Interactive text-based gameplay
+* Multiple daily decision options
+* Dynamic character progression system
+* Health, Energy, Money, Skill, and Happiness management
+* Random life events and opportunities
+* Performance evaluation and final life report
+* Realistic cause-and-effect decision making
+* User-friendly console interface
+
+## Technologies Used
+
+* C++
+* Object-Oriented Programming (OOP)
+* Standard Template Library (STL)
+* Console-Based Interface
+
+## OOP Concepts Implemented
+
+### Encapsulation
+
+Character attributes and behaviors are managed through classes and controlled access mechanisms.
+
+### Inheritance
+
+Specialized classes can inherit common functionality from base classes.
+
+### Polymorphism
+
+Functions can behave differently depending on the objects that invoke them.
+
+### Modularity
+
+The project is divided into independent modules for better organization and maintainability.
+
+## Project Structure
+
+```text
+Life-Simulation-Engine/
+│
+├── main.cpp
+├── Character.cpp
+├── Character.h
+├── GameEngine.cpp
+├── GameEngine.h
+├── Event.cpp
+├── Event.h
+├── README.md
+└── Project_Report.pdf
+```
+
+## Gameplay
+
+The simulation begins with a character having initial values for:
+
+* Health
+* Energy
+* Money
+* Skill
+* Happiness
+
+Each day, players choose actions that impact these attributes.
+
+Examples:
+
+* Studying increases skill but decreases energy.
+* Working increases money but may reduce happiness.
+* Exercising improves health but consumes energy.
+* Resting restores energy.
+
+Random events can also occur, creating unexpected opportunities and challenges.
+
+## Learning Objectives
+
+This project was developed to:
+
+* Apply Object-Oriented Programming concepts in a practical environment.
+* Demonstrate the impact of decision-making on long-term outcomes.
+* Strengthen problem-solving and logical thinking skills.
+* Simulate real-world life management scenarios.
+* Create an engaging educational experience through programming.
+
+## Future Improvements
+
+* Graphical User Interface (GUI)
+* Additional life events and scenarios
+* Career and education pathways
+* Achievement and reward system
+* Save and load game functionality
+* Multiplayer simulation mode
+
+## Team Members
+
+* Sumbul Shahid (25108273)
+* Shaheer Naeem (25108271)
+* Syed Azaan Shah (25108274)
+
+## Conclusion
+
+The Life Simulation Engine combines education, decision-making, and Object-Oriented Programming into an engaging simulation experience. Through strategic choices and dynamic gameplay, users gain insight into how everyday actions can influence long-term success, balance, and personal growth.
